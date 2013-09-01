@@ -79,6 +79,37 @@
         color: white;
       }
 
+  /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
       /* Marketing Copy and Footer */
       .copy {
         padding-top: 2.5%;
@@ -135,7 +166,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="#getting-started">Getting Started</a></li>
               <li><a href="/orders">Orders</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -205,9 +236,10 @@
           </div>
 <!--          <div class="row-fluid"> -->
           <div class="span6 offset2 addthis_toolbox order">
-	    <a class="coinbase-button" data-button-style="custom_large" data-button-text="Preorder with Bitcoin" data-code="2612986f11605fb0206c63634057637e" 
-	       href="https://coinbase.com/checkouts/2612986f11605fb0206c63634057637e">Preorder With Bitcoin</a>
-            <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+            <a class="coinbase-button" data-code="3623192c7318fcad17918378c6e22b3e"
+               data-button-style="custom_large" data-button-text="Preorder with Bitcoin" 
+               href="https://coinbase.com/checkouts/3623192c7318fcad17918378c6e22b3e">Preorder With Bitcoin</a>
+               <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script> 
           </div>
 <!--          </div> -->
           <div class="row-fluid">
@@ -305,6 +337,37 @@
           </div>
 
       </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <a id="contact"><p><br/><br/></p></a>
+        <h2 class="featurette-heading">Contact: <span class="muted">Sam Joseph</span></h2>
+        <p class="lead"><a href="mailto:sam@neurogrid.com">sam@neurogrid.com</a></p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <a id="getting-started"><p><br/><br/></p></a>
+        <h2 class="featurette-heading">Getting Started. <span class="muted">Pairers are standing by.</span></h2>
+<p class="lead">To take part in a pair programming session, first browse the G+ Pair Programming community pairing events, and sign up for any that are at an appropriate time for you, and on a topic you want to pair on:&nbsp;</p>
+<p class="lead"><a href="https://plus.google.com/communities/100279740984094902927/events">https://plus.google.com/communities/100279740984094902927/events</a></p>
+<p class="lead">If you can't see any at a good time for you then create one at a time that does suit you and click the create event button on that same page:</p>
+
+<div style="display:block;text-align:left"><a href="https://dl.dropboxusercontent.com/u/13196858/CreatingPairingEvent.png" imageanchor="1"><img border="0" height="130" src="https://dl.dropboxusercontent.com/u/13196858/CreatingPairingEvent.png" width="400"></a></div>
+<br>
+<p class="lead">Then set up the event as follows, ensuring that it is a "hangouts" event and that you include in the description which topic you would like to pair on:</p>
+<p class="lead"><img alt="" src="https://dl.dropboxusercontent.com/u/13196858/SelectingHangout.png" width="50%"></p>
+<p class="lead">Then just click "invite" and when it comes time for your event click on the hangouts link which will appear in the Details section of the event page when the pairing session gets close. &nbsp;We strongly recommend using the latest version of Chrome for hangouts:</p>
+<div style="display:block;text-align:left"><a href="https://dl.dropboxusercontent.com/u/13196858/HangoutsLinkAppearsHere.png" imageanchor="1"><img border="0" height="248" src="https://dl.dropboxusercontent.com/u/13196858/HangoutsLinkAppearsHere.png" width="400"></a></div>
+<br>
+
+<p class="lead">There are many ways to&nbsp;<a href="https://sites.google.com/site/saasellsprojects/remote-pair-programming">pair program online</a>&nbsp;but Google Hangouts is a good default option as long as you have a reasonably fast computer and a reasonably stable internet connection. &nbsp;Even if you'd like to use a different remote pairing technology it's still worth creating or joining an event in the G+ community since you can always switch to Skype Screen Share, Screen, Tmux, Nitrous.io or other alternative once you've established the time and date that you can pair at.</p>
+
+      </div>
+
+      <hr class="featurette-divider">
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
